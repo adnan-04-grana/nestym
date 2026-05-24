@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact NESTYM - Get in touch with our team for your technology project or inquiries.">
+    <title>Contact - NESTYM | Get In Touch</title>
+        <link rel="icon" href="../images/nestym-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg" id="animatedBg"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="../index.html" class="logo"><img src="../images/nestym-logo.png" alt="NESTYM logo" width="36" height="36">NESTYM</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="cta-button" onclick="window.location.href='contact.html'">Get Started</button>
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero page-hero">
+        <div class="hero-content">
+            <h1>Get In Touch</h1>
+            <p class="tagline">Let's discuss how NESTYM can help transform your business with innovative technology solutions.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Information</h2>
+                <p>Multiple ways to reach our team</p>
+            </div>
+
+            <div class="contact-content" style="margin-top: 3rem;">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon"><i class="fa-solid fa-envelope" aria-hidden="true"></i></div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p><a href="mailto:adnangrana001@gmail.com">adnangrana001@gmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></div>
+                            <div class="contact-details">
+                                <h4>WhatsApp</h4>
+                                <p><a href="https://wa.me/254769159245" target="_blank" rel="noopener noreferrer">+254 769 159 245</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon"><i class="fa-solid fa-phone" aria-hidden="true"></i></div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p><a href="tel:+254769159245">+254 769 159 245</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon"><i class="fa-brands fa-instagram" aria-hidden="true"></i></div>
+                            <div class="contact-details">
+                                <h4>Instagram</h4>
+                                <p><a href="https://www.instagram.com/nestym.ke/" target="_blank" rel="noopener noreferrer">@nestym.ke</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon"><i class="fa-solid fa-briefcase" aria-hidden="true"></i></div>
+                            <div class="contact-details">
+                                <h4>Portfolio</h4>
+                                <p><a href="https://adnan.co.ke" target="_blank" rel="noopener noreferrer">adnan.co.ke</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Nairobi, Kenya</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon"><i class="fa-solid fa-clock" aria-hidden="true"></i></div>
+                            <div class="contact-details">
+                                <h4>Business Hours</h4>
+                                <p>Monday - Friday: 9:00 AM - 5:00 PM EAT</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+254769159245">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Company/Organization</label>
+                            <input type="text" id="company" name="company" placeholder="Your company name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" placeholder="Project inquiry, support, etc." required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service of Interest</label>
+                            <select id="service" name="service" style="background: rgba(26, 31, 58, 0.6); border: 1px solid var(--border-light); border-radius: 8px; padding: 0.75rem 1rem; color: var(--text-primary); font-family: inherit; font-size: 0.95rem; transition: all 0.3s ease;">
+                                <option style="background: var(--tertiary-dark); color: var(--text-primary);">-- Select a service --</option>
+                                <option style="background: var(--tertiary-dark); color: var(--text-primary);">Software Development</option>
+                                <option style="background: var(--tertiary-dark); color: var(--text-primary);">Web Development</option>
+                                <option style="background: var(--tertiary-dark); color: var(--text-primary);">Mobile Development</option>
+                                <option style="background: var(--tertiary-dark); color: var(--text-primary);">System Development</option>
+                                <option style="background: var(--tertiary-dark); color: var(--text-primary);">Cloud Solutions</option>
+                                <option style="background: var(--tertiary-dark); color: var(--text-primary);">Cybersecurity</option>
+                                <option style="background: var(--tertiary-dark); color: var(--text-primary);">Domain & Hosting</option>
+                                <option style="background: var(--tertiary-dark); color: var(--text-primary);">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your project, requirements, and any specific needs..." required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                                <input type="checkbox" name="consent" style="width: auto;" required>
+                                <span>I agree to be contacted about my inquiry</span>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Inquiry Section -->
+    <section style="background: linear-gradient(180deg, var(--secondary-dark), var(--tertiary-dark)); padding: 6rem 2rem;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Service Inquiries</h2>
+                <p>Specific types of inquiries we handle</p>
+            </div>
+
+            <div class="services-grid" style="margin-top: 3rem;">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Project Inquiry</h3>
+                    <p>Discuss your project requirements, timeline, and budget. Our team will evaluate your needs and provide recommendations for the best technology approach.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Consultation</h3>
+                    <p>Schedule a strategic consultation to discuss your business challenges, digital transformation goals, and how NESTYM can support your growth.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Support & Maintenance</h3>
+                    <p>Need technical support or maintenance for existing systems? Contact our support team for assistance with your deployed solutions.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Partnership Inquiry</h3>
+                    <p>Interested in partnering with NESTYM? We welcome collaborations with complementary service providers and technology partners.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Career Opportunities</h3>
+                    <p>Join our growing team! If you're a talented developer or tech professional interested in working with NESTYM, we'd love to hear from you.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Media & Press</h3>
+                    <p>For media inquiries, press releases, or interview requests, please contact our communications team with your details.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="why-choose">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Quick answers to common questions</p>
+            </div>
+
+            <div class="features-grid" style="margin-top: 3rem;">
+                <div class="feature-box">
+                    <h3>What's your response time?</h3>
+                    <p>We typically respond to inquiries within 24 hours during business days. For urgent matters, contact us via WhatsApp for immediate assistance.</p>
+                </div>
+
+                <div class="feature-box">
+                    <h3>Do you offer free consultations?</h3>
+                    <p>Yes! We offer initial consultations to understand your project needs and provide recommendations on the best approach for your situation.</p>
+                </div>
+
+                <div class="feature-box">
+                    <h3>What is your project timeline?</h3>
+                    <p>Project timelines vary based on complexity and scope. After consultation, we provide detailed timelines and milestones for your specific project.</p>
+                </div>
+
+                <div class="feature-box">
+                    <h3>Do you provide maintenance support?</h3>
+                    <p>Yes. We provide comprehensive post-deployment support, maintenance, and optimization services. Custom support packages are available.</p>
+                </div>
+
+                <div class="feature-box">
+                    <h3>Can you work with existing systems?</h3>
+                    <p>Absolutely. We can integrate with, upgrade, or maintain existing systems. We'll assess your current infrastructure and recommend improvements.</p>
+                </div>
+
+                <div class="feature-box">
+                    <h3>How do you handle data security?</h3>
+                    <p>Security is paramount. We implement industry-standard encryption, secure authentication, and follow international security protocols in all solutions.</p>
+                </div>
+
+                <div class="feature-box">
+                    <h3>Do you work with international clients?</h3>
+                    <p>Yes. We serve clients globally. Our experience spans different regions, industries, and time zones. We can work with your schedule.</p>
+                </div>
+
+                <div class="feature-box">
+                    <h3>What's your pricing model?</h3>
+                    <p>We offer flexible pricing based on project scope, complexity, and requirements. We provide transparent quotes after understanding your needs.</p>
+                </div>
+
+                <div class="feature-box">
+                    <h3>Can you help with ongoing optimization?</h3>
+                    <p>Yes. We provide continuous optimization services to improve performance, user experience, and security of your deployed systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About NESTYM</h3>
+                <p>NESTYM is a modern technology company focused on building smart systems, scalable digital solutions, and innovative software products for businesses in Kenya and globally.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/nestym.ke/" class="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/254769159245" class="social-link" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="mailto:adnangrana001@gmail.com" class="social-link" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://adnan.co.ke" class="social-link" aria-label="Portfolio" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-briefcase"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="services.html">Software Development</a></li>
+                    <li><a href="services.html">Web Development</a></li>
+                    <li><a href="services.html">Mobile Development</a></li>
+                    <li><a href="services.html">Cloud Solutions</a></li>
+                    <li><a href="services.html">Cybersecurity</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="https://adnan.co.ke" target="_blank" rel="noopener noreferrer">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="documentation.html">Documentation</a></li>
+                    <li><a href="case-studies.html">Case Studies</a></li>
+                    <li><a href="technology-stack.html">Technology Stack</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="support.html">Support</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 NESTYM. All rights reserved. | Engineering Digital Futures</p>
+            <p>Nairobi, Kenya | Building the Future of African Technology</p>
+        </div>
+    </footer>
+    <script src="../js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NESTYM Portfolio - View our successful projects and case studies across various industries.">
+    <title>Projects - NESTYM | Portfolio & Case Studies</title>
+        <link rel="icon" href="../images/nestym-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg" id="animatedBg"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="../index.html" class="logo"><img src="../images/nestym-logo.png" alt="NESTYM logo" width="36" height="36">NESTYM</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="cta-button" onclick="window.location.href='contact.html'">Get Started</button>
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero page-hero">
+        <div class="hero-content">
+            <h1>Our Projects</h1>
+            <p class="tagline">Successful digital solutions delivered across diverse industries and sectors.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p>Innovative solutions that have transformed businesses and delivered measurable results.</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" data-topic="airport"><img src="../images/projects/airport.jpg" alt="Airport access management system" loading="lazy"></div>
+                    <div class="project-content">
+                        <span class="project-tag">Enterprise System</span>
+                        <h3>Airport Access Management System</h3>
+                        <p>Comprehensive security and access control system for airport operations. Features include staff authentication, area-based access control, real-time monitoring, visitor management, and compliance reporting for international airport standards.</p>
+                        <p style="color: var(--accent-cyan); font-size: 0.85rem; margin-top: 1rem;"><strong>Technologies:</strong> PHP, MySQL, JavaScript</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" data-topic="airline"><img src="../images/projects/airline.jpg" alt="Airline booking platform" loading="lazy"></div>
+                    <div class="project-content">
+                        <span class="project-tag">Booking Platform</span>
+                        <h3>Airline Booking System</h3>
+                        <p>Full-featured airline ticketing and reservation platform. Includes real-time seat availability, flight scheduling, payment gateway integration, booking management, passenger tracking, ticket generation, and comprehensive admin dashboard.</p>
+                        <p style="color: var(--accent-cyan); font-size: 0.85rem; margin-top: 1rem;"><strong>Technologies:</strong> PHP, MySQL, JavaScript, Stripe Integration</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" data-topic="taxi"><img src="../images/projects/taxi.jpg" alt="Taxi booking application" loading="lazy"></div>
+                    <div class="project-content">
+                        <span class="project-tag">Ride Sharing</span>
+                        <h3>Taxi Booking Application</h3>
+                        <p>Real-time taxi dispatch and booking system with GPS tracking. Features include driver management, passenger rating system, dynamic pricing, payment processing, emergency support, and real-time communication between drivers and passengers.</p>
+                        <p style="color: var(--accent-cyan); font-size: 0.85rem; margin-top: 1rem;"><strong>Technologies:</strong> PHP, MySQL, JavaScript, GPS API</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" data-topic="school"><img src="../images/projects/school.jpg" alt="School management system" loading="lazy"></div>
+                    <div class="project-content">
+                        <span class="project-tag">Education Tech</span>
+                        <h3>School Management System</h3>
+                        <p>Integrated education management platform for schools. Manages student records, attendance tracking, grade management, fee collection, staff coordination, parent communication portal, report generation, and academic performance analytics.</p>
+                        <p style="color: var(--accent-cyan); font-size: 0.85rem; margin-top: 1rem;"><strong>Technologies:</strong> PHP, MySQL, JavaScript, Analytics</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" data-topic="ecommerce"><img src="../images/projects/ecommerce.jpg" alt="E-commerce platform" loading="lazy"></div>
+                    <div class="project-content">
+                        <span class="project-tag">E-Commerce</span>
+                        <h3>E-Commerce Platform</h3>
+                        <p>Complete online store solution with product catalog management, shopping cart functionality, secure payment gateway integration, inventory management, order tracking, customer reviews, and comprehensive seller/admin dashboard.</p>
+                        <p style="color: var(--accent-cyan); font-size: 0.85rem; margin-top: 1rem;"><strong>Technologies:</strong> PHP, MySQL, JavaScript, Payment Gateway</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" data-topic="security"><img src="../images/projects/security.jpg" alt="Multi-factor authentication system" loading="lazy"></div>
+                    <div class="project-content">
+                        <span class="project-tag">Security</span>
+                        <h3>Multi-Factor Authentication System</h3>
+                        <p>Enterprise-grade authentication solution with two-factor authentication, biometric integration, session management, login history, device management, recovery options, and comprehensive security audit logs for compliance.</p>
+                        <p style="color: var(--accent-cyan); font-size: 0.85rem; margin-top: 1rem;"><strong>Technologies:</strong> PHP, MySQL, JavaScript, Biometric APIs</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" data-topic="inventory"><img src="../images/projects/inventory.jpg" alt="Inventory management system" loading="lazy"></div>
+                    <div class="project-content">
+                        <span class="project-tag">Business Solution</span>
+                        <h3>Inventory Management System</h3>
+                        <p>Smart inventory tracking and management system for retail and wholesale businesses. Features include stock level monitoring, automated reordering, supplier management, barcode integration, sales analytics, and real-time reporting.</p>
+                        <p style="color: var(--accent-cyan); font-size: 0.85rem; margin-top: 1rem;"><strong>Technologies:</strong> PHP, MySQL, JavaScript, Barcode API</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" data-topic="corporate"><img src="../images/projects/corporate.jpg" alt="Corporate website and blog" loading="lazy"></div>
+                    <div class="project-content">
+                        <span class="project-tag">Corporate</span>
+                        <h3>Corporate Website & Blog</h3>
+                        <p>Modern, responsive corporate website with integrated blog, portfolio showcase, service pages, client testimonials, contact forms, newsletter subscription, SEO optimization, and social media integration.</p>
+                        <p style="color: var(--accent-cyan); font-size: 0.85rem; margin-top: 1rem;"><strong>Technologies:</strong> HTML, CSS, JavaScript, CMS</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" data-topic="analytics"><img src="../images/projects/analytics.jpg" alt="Business analytics dashboard" loading="lazy"></div>
+                    <div class="project-content">
+                        <span class="project-tag">Analytics</span>
+                        <h3>Business Analytics Dashboard</h3>
+                        <p>Advanced analytics and reporting dashboard for business intelligence. Provides real-time data visualization, custom reports, performance metrics, KPI tracking, data export, and predictive analytics for strategic decision-making.</p>
+                        <p style="color: var(--accent-cyan); font-size: 0.85rem; margin-top: 1rem;"><strong>Technologies:</strong> PHP, MySQL, JavaScript, Data Visualization</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section style="background: linear-gradient(180deg, var(--secondary-dark), var(--tertiary-dark)); padding: 6rem 2rem;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Case Studies</h2>
+                <p>Detailed insights into our successful project implementations and their business impact.</p>
+            </div>
+
+            <div class="services-grid" style="margin-top: 3rem;">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>School Management Transformation</h3>
+                    <p><strong>Challenge:</strong> Manual record keeping, inefficient communication, no real-time academic tracking.</p>
+                    <p style="color: var(--text-secondary); margin-top: 0.75rem;"><strong>Solution:</strong> Complete digital transformation with integrated school management system.</p>
+                    <p style="color: var(--accent-cyan); margin-top: 0.75rem;"><strong>Impact:</strong> 80% reduction in administrative time, improved parent engagement, real-time grade tracking, automated attendance.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Retail Business Digitalization</h3>
+                    <p><strong>Challenge:</strong> Limited online presence, inventory management issues, cash-only transactions.</p>
+                    <p style="color: var(--text-secondary); margin-top: 0.75rem;"><strong>Solution:</strong> E-commerce platform with inventory system and multiple payment options.</p>
+                    <p style="color: var(--accent-cyan); margin-top: 0.75rem;"><strong>Impact:</strong> 300% increase in sales, 24/7 availability, inventory accuracy improved to 95%.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Taxi Service Digitalization</h3>
+                    <p><strong>Challenge:</strong> Inefficient dispatch, customer dissatisfaction, no tracking mechanism.</p>
+                    <p style="color: var(--text-secondary); margin-top: 0.75rem;"><strong>Solution:</strong> Real-time booking system with GPS tracking and driver management.</p>
+                    <p style="color: var(--accent-cyan); margin-top: 0.75rem;"><strong>Impact:</strong> 50% faster dispatch, customer satisfaction increased to 92%, fleet efficiency improved by 40%.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Airport Security Enhancement</h3>
+                    <p><strong>Challenge:</strong> Manual access control, security vulnerabilities, compliance issues.</p>
+                    <p style="color: var(--text-secondary); margin-top: 0.75rem;"><strong>Solution:</strong> Automated access management with biometric integration and real-time monitoring.</p>
+                    <p style="color: var(--accent-cyan); margin-top: 0.75rem;"><strong>Impact:</strong> Enhanced security, 100% access compliance, 60% faster employee onboarding.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack Section -->
+    <section class="technologies">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technology Stack</h2>
+                <p>Modern, proven technologies we use to build reliable and scalable solutions.</p>
+            </div>
+
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fa-brands fa-html5" aria-hidden="true"></i></div>
+                    <p>HTML/CSS</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fa-brands fa-js" aria-hidden="true"></i></div>
+                    <p>JavaScript</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fa-brands fa-php" aria-hidden="true"></i></div>
+                    <p>PHP</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fa-solid fa-database" aria-hidden="true"></i></div>
+                    <p>MySQL</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fa-brands fa-react" aria-hidden="true"></i></div>
+                    <p>React</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fa-brands fa-node-js" aria-hidden="true"></i></div>
+                    <p>Node.js</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fa-solid fa-cloud" aria-hidden="true"></i></div>
+                    <p>Cloud Services</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i></div>
+                    <p>Security APIs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Ready to Build Your Next Project?</h2>
+                <p>Let's create something amazing together. Contact us to discuss your vision.</p>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="contact.html" class="btn-primary" style="font-size: 1.1rem; padding: 1.2rem 2.5rem;">Start Your Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About NESTYM</h3>
+                <p>NESTYM is a modern technology company focused on building smart systems, scalable digital solutions, and innovative software products for businesses in Kenya and globally.</p>
+                                <div class="social-links">
+                    <a href="https://www.instagram.com/nestym.ke/" class="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/254769159245" class="social-link" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="mailto:adnangrana001@gmail.com" class="social-link" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://adnan.co.ke" class="social-link" aria-label="Portfolio" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-briefcase"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="services.html">Software Development</a></li>
+                    <li><a href="services.html">Web Development</a></li>
+                    <li><a href="services.html">Mobile Development</a></li>
+                    <li><a href="services.html">Cloud Solutions</a></li>
+                    <li><a href="services.html">Cybersecurity</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="https://adnan.co.ke" target="_blank" rel="noopener noreferrer">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="documentation.html">Documentation</a></li>
+                    <li><a href="case-studies.html">Case Studies</a></li>
+                    <li><a href="technology-stack.html">Technology Stack</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="support.html">Support</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 NESTYM. All rights reserved. | Engineering Digital Futures</p>
+            <p>Nairobi, Kenya | Building the Future of African Technology</p>
+        </div>
+    </footer>
+    <script src="../js/main.js" defer></script>
+</body>
+</html>

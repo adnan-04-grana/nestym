@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NESTYM - Kenyan Technology Company specializing in Software Development, System Development, Web & Mobile Apps, and Cloud Solutions.">
+    <meta name="keywords" content="software development, system development, web development, mobile apps, cloud solutions, Kenya">
+    <title>NESTYM - Engineering Digital Futures | Kenyan Tech Innovation</title>
+    <link rel="icon" href="images/nestym-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg" id="animatedBg"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo"><img src="images/nestym-logo.png" alt="NESTYM logo" width="36" height="36">NESTYM</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="pages/services.html">Services</a></li>
+                <li><a href="pages/about.html">About</a></li>
+                <li><a href="pages/projects.html">Projects</a></li>
+                <li><a href="pages/blog.html">Blog</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+            </ul>
+            <button class="cta-button" onclick="window.location.href='pages/contact.html'">Get Started</button>
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="hero-badge"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Nairobi, Kenya · African Tech Innovation</p>
+            <h1>Engineering Digital Futures</h1>
+            <p class="tagline">Transform your business with cutting-edge software solutions, intelligent systems, and innovative digital services. From concept to deployment, we build the future of African technology.</p>
+            
+            <div class="hero-buttons">
+                <a href="pages/services.html" class="btn-primary">Explore Services</a>
+                <a href="pages/contact.html" class="btn-secondary">Start a Project</a>
+            </div>
+
+            <div class="scroll-indicator">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 5v14M19 12l-7 7-7-7"></path>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive digital solutions tailored to your business needs. From software development to cloud deployment, we handle it all.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-code" aria-hidden="true"></i></div>
+                    <h3>Software Development</h3>
+                    <p>Custom enterprise systems, desktop applications, automation tools, school management systems, airport systems, booking platforms, and financial systems built with precision and scalability.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-globe" aria-hidden="true"></i></div>
+                    <h3>Web Development</h3>
+                    <p>Modern responsive websites, e-commerce platforms, custom dashboards, admin panels, landing pages, and business websites designed for performance and user experience.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-server" aria-hidden="true"></i></div>
+                    <h3>System Development</h3>
+                    <p>Robust management systems, database solutions, secure authentication, role-based access control, attendance systems, digital verification, and cloud-based enterprise systems.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-mobile-screen" aria-hidden="true"></i></div>
+                    <h3>Mobile Development</h3>
+                    <p>Native Android applications, cross-platform solutions, business mobile apps, customer service applications, and innovative mobile solutions for the African market.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i></div>
+                    <h3>Cybersecurity</h3>
+                    <p>Secure login systems, database protection, website security, secure authentication mechanisms, user protection systems, and comprehensive security infrastructure for your digital assets.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-cloud" aria-hidden="true"></i></div>
+                    <h3>Cloud & Deployment</h3>
+                    <p>GitHub deployment, Cloudflare setup, server configuration, DNS management, SSL certificates, international website deployment, and performance optimization services.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-link" aria-hidden="true"></i></div>
+                    <h3>Domain & Hosting</h3>
+                    <p>Professional domain registration (.co.ke, .com, .dev, .tech), hosting setup, email configuration, SSL certificates, and global brand establishment with modern digital infrastructure.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-gears" aria-hidden="true"></i></div>
+                    <h3>Business Automation</h3>
+                    <p>Streamline operations with custom automation tools, inventory management systems, workflow automation, business process optimization, and intelligent system integration.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-palette" aria-hidden="true"></i></div>
+                    <h3>UI/UX Design</h3>
+                    <p>Modern user interface design, responsive layouts, interactive elements, accessibility-focused design, and beautiful digital experiences that engage and convert users.</p>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="pages/services.html" class="btn-primary">View All Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About NESTYM</h2>
+                <p>Pioneering African Technology Innovation</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who We Are</h3>
+                    <p>NESTYM is a modern Kenyan technology initiative founded on the principles of innovation, excellence, and digital transformation. We believe in building smart systems and scalable digital solutions that empower businesses to compete on the global stage.</p>
+                    
+                    <p>Our mission is to be the leading technology partner for businesses in Kenya and across Africa, delivering world-class software solutions that drive growth and digital evolution.</p>
+
+                    <p>With a passion for cutting-edge technology, modern software engineering practices, and an innovation-driven mindset, we create future-focused systems that meet international standards while supporting local and African businesses.</p>
+                </div>
+
+                <div class="about-image">
+                    <img src="images/about/team.jpg" alt="NESTYM team building digital solutions in Nairobi" width="650" height="400" loading="lazy">
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-box">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">30+</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Industries Served</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Commitment to Quality</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p>Showcase of innovative solutions we've delivered across various industries and sectors.</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" data-topic="airport">
+                        <img src="images/projects/airport.jpg" alt="Airport access management system" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Enterprise System</span>
+                        <h3>Airport Access Management</h3>
+                        <p>Comprehensive access control and security system for airport operations including staff authentication, area access control, and real-time monitoring.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" data-topic="airline">
+                        <img src="images/projects/airline.jpg" alt="Airline booking platform" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Booking Platform</span>
+                        <h3>Airline Booking System</h3>
+                        <p>Full-featured airline ticketing platform with real-time seat availability, payment integration, booking management, and passenger tracking system.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" data-topic="taxi">
+                        <img src="images/projects/taxi.jpg" alt="Taxi booking mobile application" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Ride Sharing</span>
+                        <h3>Taxi Booking Application</h3>
+                        <p>Real-time taxi dispatch system with GPS tracking, driver management, payment processing, and customer rating system for seamless urban mobility.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" data-topic="school">
+                        <img src="images/projects/school.jpg" alt="School management system dashboard" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Education Tech</span>
+                        <h3>School Management System</h3>
+                        <p>Integrated platform for student records, attendance tracking, grades management, fee collection, staff coordination, and parent communication portal.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" data-topic="ecommerce">
+                        <img src="images/projects/ecommerce.jpg" alt="E-commerce platform interface" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">E-Commerce</span>
+                        <h3>E-Commerce Platform</h3>
+                        <p>Complete online store solution with product catalog, shopping cart, secure payment gateway, inventory management, order tracking, and admin dashboard.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" data-topic="security">
+                        <img src="images/projects/security.jpg" alt="Multi-factor authentication security system" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Security</span>
+                        <h3>Multi-Factor Authentication System</h3>
+                        <p>Enterprise-grade authentication solution with two-factor authentication, biometric integration, session management, and comprehensive security protocols.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="pages/projects.html" class="btn-primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section class="technologies">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technologies We Use</h2>
+                <p>Modern, industry-standard technologies for building scalable and reliable solutions.</p>
+            </div>
+
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fa-brands fa-html5" aria-hidden="true"></i></div>
+                    <p>HTML/CSS</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fa-brands fa-js" aria-hidden="true"></i></div>
+                    <p>JavaScript</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fa-brands fa-php" aria-hidden="true"></i></div>
+                    <p>PHP</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fa-solid fa-database" aria-hidden="true"></i></div>
+                    <p>MySQL</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fa-brands fa-react" aria-hidden="true"></i></div>
+                    <p>React</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fa-brands fa-node-js" aria-hidden="true"></i></div>
+                    <p>Node.js</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fa-solid fa-cloud" aria-hidden="true"></i></div>
+                    <p>Cloud Technologies</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fa-solid fa-plug" aria-hidden="true"></i></div>
+                    <p>Web Services</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Preview Section -->
+    <section class="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest From Our Blog</h2>
+                <p>Insights on software development, technology trends, and digital innovation in Africa.</p>
+            </div>
+
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-image" data-topic="cloud">
+                        <img src="images/blog/cloud.jpg" alt="Cloud computing in Africa" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">May 22, 2026</div>
+                        <h3>The Future of Cloud Computing in Africa</h3>
+                        <p>Explore how cloud technologies are transforming African businesses and enabling digital innovation at scale across the continent.</p>
+                        <a href="pages/blog.html" class="read-more">Read Article →</a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image" data-topic="cyber">
+                        <img src="images/blog/cyber.jpg" alt="Cybersecurity best practices" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">May 18, 2026</div>
+                        <h3>Cybersecurity Best Practices for 2026</h3>
+                        <p>Essential security measures every business should implement to protect their digital assets, data, and customer information.</p>
+                        <a href="pages/blog.html" class="read-more">Read Article →</a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image" data-topic="mobile">
+                        <img src="images/blog/mobile.jpg" alt="Mobile-first application design" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">May 15, 2026</div>
+                        <h3>Building Mobile-First Applications</h3>
+                        <p>Why mobile-first design is crucial for modern applications and how to build responsive experiences for all devices.</p>
+                        <a href="pages/blog.html" class="read-more">Read Article →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="pages/blog.html" class="btn-primary">Read More Articles</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Section -->
+    <section class="why-choose">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose NESTYM</h2>
+                <p>What sets us apart in the technology landscape.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-box">
+                    <div class="feature-icon"><i class="fa-solid fa-users" aria-hidden="true"></i></div>
+                    <h3>Expert Team</h3>
+                    <p>Experienced developers and engineers with proven expertise in building enterprise-grade solutions and modern digital systems.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-icon"><i class="fa-solid fa-bolt" aria-hidden="true"></i></div>
+                    <h3>Fast Delivery</h3>
+                    <p>Agile development methodology ensures quick turnaround times without compromising quality or functionality of your projects.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-icon"><i class="fa-solid fa-lock" aria-hidden="true"></i></div>
+                    <h3>Secure Solutions</h3>
+                    <p>Security-first approach with industry-standard encryption, authentication, and protection mechanisms built into every solution.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-icon"><i class="fa-solid fa-chart-line" aria-hidden="true"></i></div>
+                    <h3>Scalable Systems</h3>
+                    <p>Solutions designed to grow with your business, from startup to enterprise scale with room for expansion and new features.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-icon"><i class="fa-solid fa-earth-africa" aria-hidden="true"></i></div>
+                    <h3>Global Standards</h3>
+                    <p>International best practices and standards applied to every project while maintaining local relevance and Kenyan context.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-icon"><i class="fa-solid fa-headset" aria-hidden="true"></i></div>
+                    <h3>24/7 Support</h3>
+                    <p>Dedicated support team available to address your needs, troubleshoot issues, and ensure your systems run smoothly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>Real feedback from businesses we've helped transform digitally.</p>
+            </div>
+
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="quote-mark">"</div>
+                    <p class="testimonial-text">NESTYM transformed our entire operations with their school management system. The platform is intuitive, reliable, and has saved us countless hours. Highly recommended!</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="images/avatars/james.svg" alt="James Kariuki" width="52" height="52" loading="lazy">
+                        </div>
+                        <div class="author-info">
+                            <h4>James Kariuki</h4>
+                            <p>School Principal</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quote-mark">"</div>
+                    <p class="testimonial-text">Professional, responsive, and innovative. NESTYM delivered our e-commerce platform on time and exceeded expectations. They truly understand modern web development.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="images/avatars/amara.svg" alt="Amara Wanjiru" width="52" height="52" loading="lazy">
+                        </div>
+                        <div class="author-info">
+                            <h4>Amara Wanjiru</h4>
+                            <p>E-Commerce Business Owner</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quote-mark">"</div>
+                    <p class="testimonial-text">Working with NESTYM on our booking system has been an excellent experience. Their technical expertise and customer service are outstanding. Truly a Silicon Valley experience locally!</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="images/avatars/peter.svg" alt="Peter Mutua" width="52" height="52" loading="lazy">
+                        </div>
+                        <div class="author-info">
+                            <h4>Peter Mutua</h4>
+                            <p>Travel Agency Owner</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Strip -->
+    <section class="industries-strip">
+        <div class="container">
+            <p class="strip-label">Trusted across industries</p>
+            <div class="strip-items">
+                <span><i class="fa-solid fa-plane"></i> Travel</span>
+                <span><i class="fa-solid fa-graduation-cap"></i> Education</span>
+                <span><i class="fa-solid fa-cart-shopping"></i> Retail</span>
+                <span><i class="fa-solid fa-hospital"></i> Healthcare</span>
+                <span><i class="fa-solid fa-building"></i> Enterprise</span>
+                <span><i class="fa-solid fa-chart-pie"></i> Finance</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Ready to Start Your Project?</h2>
+                <p>Let's discuss how NESTYM can help transform your business with cutting-edge technology solutions.</p>
+            </div>
+
+            <div class="contact-content" style="margin-top: 3rem;">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon"><i class="fa-solid fa-envelope" aria-hidden="true"></i></div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p><a href="mailto:adnangrana001@gmail.com">adnangrana001@gmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></div>
+                            <div class="contact-details">
+                                <h4>WhatsApp</h4>
+                                <p><a href="https://wa.me/254769159245" target="_blank" rel="noopener noreferrer">+254 769 159 245</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon"><i class="fa-solid fa-phone" aria-hidden="true"></i></div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p><a href="tel:+254769159245">+254 769 159 245</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon"><i class="fa-brands fa-instagram" aria-hidden="true"></i></div>
+                            <div class="contact-details">
+                                <h4>Instagram</h4>
+                                <p><a href="https://www.instagram.com/nestym.ke/" target="_blank" rel="noopener noreferrer">@nestym.ke</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Nairobi, Kenya</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon"><i class="fa-solid fa-briefcase" aria-hidden="true"></i></div>
+                            <div class="contact-details">
+                                <h4>Portfolio</h4>
+                                <p><a href="https://adnan.co.ke" target="_blank" rel="noopener noreferrer">adnan.co.ke</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your full name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Project inquiry, support, etc." required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your project and goals..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About NESTYM</h3>
+                <p>NESTYM is a modern technology company focused on building smart systems, scalable digital solutions, and innovative software products for businesses in Kenya and globally.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/nestym.ke/" class="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/254769159245" class="social-link" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="mailto:adnangrana001@gmail.com" class="social-link" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://adnan.co.ke" class="social-link" aria-label="Portfolio" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-briefcase"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="pages/services.html">Software Development</a></li>
+                    <li><a href="pages/services.html">Web Development</a></li>
+                    <li><a href="pages/services.html">Mobile Development</a></li>
+                    <li><a href="pages/services.html">Cloud Solutions</a></li>
+                    <li><a href="pages/services.html">Cybersecurity</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="pages/about.html">About Us</a></li>
+                    <li><a href="pages/blog.html">Blog</a></li>
+                    <li><a href="https://adnan.co.ke" target="_blank" rel="noopener noreferrer">Portfolio</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                    <li><a href="pages/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="pages/documentation.html">Documentation</a></li>
+                    <li><a href="pages/case-studies.html">Case Studies</a></li>
+                    <li><a href="pages/technology-stack.html">Technology Stack</a></li>
+                    <li><a href="pages/faq.html">FAQ</a></li>
+                    <li><a href="pages/support.html">Support</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 NESTYM. All rights reserved. | Engineering Digital Futures</p>
+            <p>Nairobi, Kenya | Building the Future of African Technology</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>

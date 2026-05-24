@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NESTYM Blog - Technology insights, software development guides, and digital innovation articles.">
+    <title>Blog - NESTYM | Technology Insights & Articles</title>
+        <link rel="icon" href="../images/nestym-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg" id="animatedBg"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="../index.html" class="logo"><img src="../images/nestym-logo.png" alt="NESTYM logo" width="36" height="36">NESTYM</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="cta-button" onclick="window.location.href='contact.html'">Get Started</button>
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero page-hero">
+        <div class="hero-content">
+            <h1>Technology Blog</h1>
+            <p class="tagline">Insights, guides, and perspectives on software development, digital innovation, and technology trends.</p>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest Articles</h2>
+                <p>Stay updated with insights on technology, development, and digital transformation.</p>
+            </div>
+
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-image" data-topic="cloud"><img src="../images/blog/cloud.jpg" alt="Cloud computing in Africa" loading="lazy"></div>
+                    <div class="blog-content">
+                        <div class="blog-date">May 22, 2026</div>
+                        <h3>The Future of Cloud Computing in Africa</h3>
+                        <p>Cloud technologies are revolutionizing how African businesses operate and scale. From startups to enterprises, cloud solutions provide the flexibility, security, and cost-effectiveness needed to compete globally. Explore how cloud computing is transforming the African tech landscape.</p>
+                        <a href="#" class="read-more">Read Article →</a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image" data-topic="cyber"><img src="../images/blog/cyber.jpg" alt="Cybersecurity best practices" loading="lazy"></div>
+                    <div class="blog-content">
+                        <div class="blog-date">May 18, 2026</div>
+                        <h3>Cybersecurity Best Practices for 2026</h3>
+                        <p>In an increasingly digital world, cybersecurity is paramount. Learn the essential security measures every business should implement to protect their digital assets, customer data, and maintain trust. From authentication to encryption, we cover the fundamentals.</p>
+                        <a href="#" class="read-more">Read Article →</a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image" data-topic="mobile"><img src="../images/blog/mobile.jpg" alt="Mobile-first application design" loading="lazy"></div>
+                    <div class="blog-content">
+                        <div class="blog-date">May 15, 2026</div>
+                        <h3>Building Mobile-First Applications</h3>
+                        <p>Mobile-first design is no longer optional—it's essential. With over 80% of internet traffic from mobile devices, learn how to build responsive, fast, and engaging mobile applications that provide excellent user experiences across all devices.</p>
+                        <a href="#" class="read-more">Read Article →</a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image" data-topic="startup"><img src="../images/blog/startup.jpg" alt="Startup growth with technology" loading="lazy"></div>
+                    <div class="blog-content">
+                        <div class="blog-date">May 12, 2026</div>
+                        <h3>Accelerating Your Startup Growth with Technology</h3>
+                        <p>Startups need to move fast and efficiently. Discover how the right technology stack, scalable architecture, and smart automation can accelerate your growth. Learn from successful African tech startups that leveraged technology to scale rapidly.</p>
+                        <a href="#" class="read-more">Read Article →</a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image" data-topic="ai"><img src="../images/blog/ai.jpg" alt="AI and business automation" loading="lazy"></div>
+                    <div class="blog-content">
+                        <div class="blog-date">May 8, 2026</div>
+                        <h3>AI and Automation in Business Operations</h3>
+                        <p>Artificial intelligence and automation are transforming business operations. Explore practical applications of AI, from customer service chatbots to predictive analytics. Learn how automation can increase efficiency and reduce operational costs.</p>
+                        <a href="#" class="read-more">Read Article →</a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image" data-topic="digital"><img src="../images/blog/digital.jpg" alt="Digital transformation" loading="lazy"></div>
+                    <div class="blog-content">
+                        <div class="blog-date">May 5, 2026</div>
+                        <h3>Digital Transformation for Traditional Businesses</h3>
+                        <p>Traditional businesses are evolving in the digital age. Learn how to successfully transform your business operations through technology, improve customer experience, and stay competitive in an increasingly digital marketplace.</p>
+                        <a href="#" class="read-more">Read Article →</a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image" data-topic="data"><img src="../images/blog/data.jpg" alt="Data-driven decision making" loading="lazy"></div>
+                    <div class="blog-content">
+                        <div class="blog-date">May 1, 2026</div>
+                        <h3>Data-Driven Decision Making</h3>
+                        <p>Data is the new gold. Understand how to collect, analyze, and leverage data to make informed business decisions. From business intelligence to predictive analytics, learn to turn data into actionable insights for growth.</p>
+                        <a href="#" class="read-more">Read Article →</a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image" data-topic="global"><img src="../images/blog/global.jpg" alt="Global applications with local impact" loading="lazy"></div>
+                    <div class="blog-content">
+                        <div class="blog-date">April 28, 2026</div>
+                        <h3>Building Global Applications with Local Impact</h3>
+                        <p>African developers and companies are building world-class solutions with global reach. Explore how to build applications that serve international audiences while maintaining local relevance and cultural sensitivity.</p>
+                        <a href="#" class="read-more">Read Article →</a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image" data-topic="skills"><img src="../images/blog/skills.jpg" alt="Developer skills in 2026" loading="lazy"></div>
+                    <div class="blog-content">
+                        <div class="blog-date">April 25, 2026</div>
+                        <h3>Tech Skills Every Developer Should Learn in 2026</h3>
+                        <p>The tech landscape evolves rapidly. Discover the essential skills every developer should master, from cloud platforms to modern frameworks. Stay ahead of the curve and enhance your career prospects with in-demand expertise.</p>
+                        <a href="#" class="read-more">Read Article →</a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image" data-topic="architecture"><img src="../images/blog/architecture.jpg" alt="System architecture best practices" loading="lazy"></div>
+                    <div class="blog-content">
+                        <div class="blog-date">April 22, 2026</div>
+                        <h3>System Architecture Best Practices</h3>
+                        <p>Building scalable systems requires careful architecture planning. Learn about microservices, API design, database optimization, and deployment strategies that ensure your systems can handle growth and maintain reliability.</p>
+                        <a href="#" class="read-more">Read Article →</a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image" data-topic="devops"><img src="../images/blog/devops.jpg" alt="DevOps practices" loading="lazy"></div>
+                    <div class="blog-content">
+                        <div class="blog-date">April 19, 2026</div>
+                        <h3>DevOps Practices for Modern Development</h3>
+                        <p>DevOps bridges development and operations. Explore continuous integration, continuous deployment, automated testing, and infrastructure as code. Learn how to streamline your development pipeline and improve delivery speed.</p>
+                        <a href="#" class="read-more">Read Article →</a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image" data-topic="ux"><img src="../images/blog/ux.jpg" alt="UX design for web applications" loading="lazy"></div>
+                    <div class="blog-content">
+                        <div class="blog-date">April 16, 2026</div>
+                        <h3>UX Design Principles for Web Applications</h3>
+                        <p>Great applications aren't just functional—they're beautiful and intuitive. Learn UX design principles that create engaging user experiences, improve usability, and increase user satisfaction and retention.</p>
+                        <a href="#" class="read-more">Read Article →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Categories Section -->
+    <section style="background: linear-gradient(180deg, var(--secondary-dark), var(--tertiary-dark)); padding: 6rem 2rem;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Blog Categories</h2>
+                <p>Explore content across different technology topics.</p>
+            </div>
+
+            <div class="services-grid" style="margin-top: 3rem;">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Software Development</h3>
+                    <p>Articles on coding practices, software architecture, design patterns, programming languages, and development methodologies for building quality software.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Web Technologies</h3>
+                    <p>Guides on HTML, CSS, JavaScript, responsive design, web frameworks, and modern web development practices for creating engaging web experiences.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Mobile Development</h3>
+                    <p>Insights on mobile app development, cross-platform frameworks, mobile UX, app optimization, and building applications for diverse devices.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Cloud & DevOps</h3>
+                    <p>Content on cloud services, deployment strategies, containerization, CI/CD pipelines, server management, and infrastructure automation.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Cybersecurity</h3>
+                    <p>Articles on security best practices, threat prevention, secure coding, authentication, encryption, and protecting digital assets from threats.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>AI & Automation</h3>
+                    <p>Exploring artificial intelligence, machine learning, automation technologies, and how to leverage AI for business growth and efficiency.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Business & Startups</h3>
+                    <p>Guides for entrepreneurs, startup advice, digital transformation strategies, business automation, and building successful tech ventures.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Data & Analytics</h3>
+                    <p>Articles on data analysis, business intelligence, data visualization, databases, and leveraging data for strategic business decisions.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>African Tech</h3>
+                    <p>Content focused on African technology innovation, tech entrepreneurship in Africa, digital transformation across the continent.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscribe Section -->
+    <section style="background: linear-gradient(180deg, var(--tertiary-dark), var(--secondary-dark)); padding: 4rem 2rem;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Get the latest technology insights and articles delivered to your inbox.</p>
+            </div>
+
+            <div style="max-width: 500px; margin: 3rem auto;">
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn-primary" style="padding: 0.75rem 2rem; margin: 0;">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Have a Topic in Mind?</h2>
+                <p>Interested in a specific technology topic? Let us know what you'd like to read about.</p>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="contact.html" class="btn-primary" style="font-size: 1.1rem; padding: 1.2rem 2.5rem;">Suggest a Topic</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About NESTYM</h3>
+                <p>NESTYM is a modern technology company focused on building smart systems, scalable digital solutions, and innovative software products for businesses in Kenya and globally.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/nestym.ke/" class="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/254769159245" class="social-link" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="mailto:adnangrana001@gmail.com" class="social-link" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://adnan.co.ke" class="social-link" aria-label="Portfolio" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-briefcase"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="services.html">Software Development</a></li>
+                    <li><a href="services.html">Web Development</a></li>
+                    <li><a href="services.html">Mobile Development</a></li>
+                    <li><a href="services.html">Cloud Solutions</a></li>
+                    <li><a href="services.html">Cybersecurity</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="https://adnan.co.ke" target="_blank" rel="noopener noreferrer">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="documentation.html">Documentation</a></li>
+                    <li><a href="case-studies.html">Case Studies</a></li>
+                    <li><a href="technology-stack.html">Technology Stack</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="support.html">Support</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 NESTYM. All rights reserved. | Engineering Digital Futures</p>
+            <p>Nairobi, Kenya | Building the Future of African Technology</p>
+        </div>
+    </footer>
+    <script src="../js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NESTYM Services - Software Development, Web Development, Mobile Apps, Cloud Solutions, Cybersecurity, and more.">
+    <title>Services - NESTYM | Professional Technology Solutions</title>
+        <link rel="icon" href="../images/nestym-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg" id="animatedBg"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="../index.html" class="logo"><img src="../images/nestym-logo.png" alt="NESTYM logo" width="36" height="36">NESTYM</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="cta-button" onclick="window.location.href='contact.html'">Get Started</button>
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero page-hero">
+        <div class="hero-content">
+            <h1>Our Services</h1>
+            <p class="tagline">Comprehensive technology solutions designed to transform your business and drive digital innovation.</p>
+        </div>
+    </section>
+
+    <!-- Services Detail Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Professional Technology Solutions</h2>
+                <p>Tailored services for businesses of all sizes, from startups to enterprises.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Software Development</h3>
+                    <p><strong>Custom Enterprise Systems</strong> - We build robust, scalable software solutions including:</p>
+                    <ul style="color: var(--text-secondary); margin: 1rem 0; padding-left: 1.5rem;">
+                        <li>Enterprise resource planning systems</li>
+                        <li>Desktop applications</li>
+                        <li>Business automation tools</li>
+                        <li>Inventory management systems</li>
+                        <li>School management platforms</li>
+                        <li>Airport access systems</li>
+                        <li>Booking and reservation systems</li>
+                        <li>Financial management systems</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Web Development</h3>
+                    <p><strong>Modern Web Experiences</strong> - Professional websites and web applications:</p>
+                    <ul style="color: var(--text-secondary); margin: 1rem 0; padding-left: 1.5rem;">
+                        <li>Business and company websites</li>
+                        <li>Professional portfolio sites</li>
+                        <li>E-commerce platforms</li>
+                        <li>High-converting landing pages</li>
+                        <li>Custom dashboards and analytics</li>
+                        <li>Admin panels and management systems</li>
+                        <li>Progressive web applications</li>
+                        <li>Responsive mobile-friendly design</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>System Development</h3>
+                    <p><strong>Intelligent Systems Architecture</strong> - Enterprise-grade system solutions:</p>
+                    <ul style="color: var(--text-secondary); margin: 1rem 0; padding-left: 1.5rem;">
+                        <li>Management information systems</li>
+                        <li>Database design and optimization</li>
+                        <li>Secure authentication systems</li>
+                        <li>Role-based access control</li>
+                        <li>Attendance and tracking systems</li>
+                        <li>Digital verification systems</li>
+                        <li>Cloud-based enterprise solutions</li>
+                        <li>Real-time data processing</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Mobile Development</h3>
+                    <p><strong>Mobile-First Solutions</strong> - Apps for the modern user:</p>
+                    <ul style="color: var(--text-secondary); margin: 1rem 0; padding-left: 1.5rem;">
+                        <li>Native Android applications</li>
+                        <li>Cross-platform mobile apps</li>
+                        <li>Business mobile solutions</li>
+                        <li>Customer service applications</li>
+                        <li>Real-time tracking apps</li>
+                        <li>E-commerce mobile apps</li>
+                        <li>Payment integration</li>
+                        <li>Mobile-optimized interfaces</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Cybersecurity & Protection</h3>
+                    <p><strong>Secure Digital Infrastructure</strong> - Protect what matters most:</p>
+                    <ul style="color: var(--text-secondary); margin: 1rem 0; padding-left: 1.5rem;">
+                        <li>Secure login and authentication</li>
+                        <li>Database encryption and protection</li>
+                        <li>Website security hardening</li>
+                        <li>Multi-factor authentication systems</li>
+                        <li>User data protection protocols</li>
+                        <li>Vulnerability assessments</li>
+                        <li>Security compliance solutions</li>
+                        <li>Incident response planning</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Cloud & Deployment Services</h3>
+                    <p><strong>Global Infrastructure</strong> - Deploy with confidence worldwide:</p>
+                    <ul style="color: var(--text-secondary); margin: 1rem 0; padding-left: 1.5rem;">
+                        <li>GitHub deployment and automation</li>
+                        <li>Cloudflare configuration</li>
+                        <li>Server setup and management</li>
+                        <li>DNS management and optimization</li>
+                        <li>SSL certificate setup</li>
+                        <li>Website performance optimization</li>
+                        <li>Uptime monitoring</li>
+                        <li>Backup and disaster recovery</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Domain & Hosting Services</h3>
+                    <p><strong>Build Your Digital Brand</strong> - Professional domain solutions:</p>
+                    <ul style="color: var(--text-secondary); margin: 1rem 0; padding-left: 1.5rem;">
+                        <li>Personal domain registration (.dev, .io, .tech)</li>
+                        <li>Business domain registration (.co.ke, .com)</li>
+                        <li>Professional email setup</li>
+                        <li>Hosting infrastructure</li>
+                        <li>SSL certificate management</li>
+                        <li>Domain transfer services</li>
+                        <li>Email hosting and configuration</li>
+                        <li>DNS and nameserver setup</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Business Automation</h3>
+                    <p><strong>Streamline Operations</strong> - Intelligent automation solutions:</p>
+                    <ul style="color: var(--text-secondary); margin: 1rem 0; padding-left: 1.5rem;">
+                        <li>Workflow automation</li>
+                        <li>Business process optimization</li>
+                        <li>Data automation and integration</li>
+                        <li>Invoice and billing automation</li>
+                        <li>Report generation systems</li>
+                        <li>Task scheduling and management</li>
+                        <li>System integration services</li>
+                        <li>Efficiency improvement consulting</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>UI/UX Design</h3>
+                    <p><strong>Beautiful Digital Experiences</strong> - Design that converts:</p>
+                    <ul style="color: var(--text-secondary); margin: 1rem 0; padding-left: 1.5rem;">
+                        <li>User interface design</li>
+                        <li>User experience research</li>
+                        <li>Responsive design systems</li>
+                        <li>Interactive prototypes</li>
+                        <li>Accessibility design</li>
+                        <li>Design systems and components</li>
+                        <li>Wireframing and mockups</li>
+                        <li>User testing and research</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Consulting & Strategy</h3>
+                    <p><strong>Digital Transformation</strong> - Expert guidance for growth:</p>
+                    <ul style="color: var(--text-secondary); margin: 1rem 0; padding-left: 1.5rem;">
+                        <li>Digital transformation strategy</li>
+                        <li>Technology consulting</li>
+                        <li>System architecture design</li>
+                        <li>Technology stack selection</li>
+                        <li>Project planning and management</li>
+                        <li>Performance optimization</li>
+                        <li>Best practices implementation</li>
+                        <li>Team mentoring and training</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Process Section -->
+    <section style="background: linear-gradient(180deg, var(--secondary-dark), var(--tertiary-dark)); padding: 6rem 2rem;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Development Process</h2>
+                <p>A proven methodology for delivering exceptional results.</p>
+            </div>
+
+            <div class="services-grid" style="margin-top: 3rem;">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Discovery & Analysis</h3>
+                    <p>We start by understanding your business goals, requirements, and challenges. In-depth consultations ensure we capture every detail before development begins.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Planning & Design</h3>
+                    <p>Our team creates detailed project plans, system architecture, and design specifications. We ensure alignment with your vision before any code is written.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Development</h3>
+                    <p>Using modern development practices and clean code principles, we build robust, scalable solutions. Regular updates keep you informed of progress.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Testing & QA</h3>
+                    <p>Comprehensive testing ensures quality and reliability. We perform unit tests, integration tests, and user acceptance testing before deployment.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Deployment</h3>
+                    <p>We handle all deployment aspects including server setup, configuration, and optimization. Your solution goes live with minimal downtime.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Support & Maintenance</h3>
+                    <p>After launch, our team provides ongoing support, maintenance, and optimization. We're here to ensure your system performs at its best.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industry Expertise Section -->
+    <section style="background: linear-gradient(180deg, var(--tertiary-dark), var(--secondary-dark)); padding: 6rem 2rem;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Industries We Serve</h2>
+                <p>Expertise across diverse sectors and business types.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Travel & Transportation</h3>
+                    <p>Booking systems, airline management, taxi dispatch, and travel logistics solutions for seamless passenger experiences.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Education</h3>
+                    <p>School management systems, student information portals, online learning platforms, and administrative solutions for institutions.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Healthcare</h3>
+                    <p>Patient management systems, appointment scheduling, medical records, and healthcare administration solutions.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Retail & E-Commerce</h3>
+                    <p>Online stores, inventory management, point-of-sale systems, and customer engagement platforms for modern retail.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Finance & Banking</h3>
+                    <p>Financial management systems, payment processing, accounting software, and secure financial solutions.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Manufacturing & Operations</h3>
+                    <p>Production management, supply chain optimization, inventory tracking, and operational efficiency systems.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Hospitality</h3>
+                    <p>Booking systems, property management, guest communication, and hospitality operational solutions.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Business Services</h3>
+                    <p>Consulting platforms, client management, reporting systems, and professional services automation.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                    <h3>Media & Entertainment</h3>
+                    <p>Content management systems, streaming platforms, booking systems, and digital media solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Ready to Transform Your Business?</h2>
+                <p>Let's discuss your project and how NESTYM can help you achieve your digital goals.</p>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="contact.html" class="btn-primary" style="font-size: 1.1rem; padding: 1.2rem 2.5rem;">Schedule a Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About NESTYM</h3>
+                <p>NESTYM is a modern technology company focused on building smart systems, scalable digital solutions, and innovative software products for businesses in Kenya and globally.</p>
+                                <div class="social-links">
+                    <a href="https://www.instagram.com/nestym.ke/" class="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/254769159245" class="social-link" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="mailto:adnangrana001@gmail.com" class="social-link" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://adnan.co.ke" class="social-link" aria-label="Portfolio" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-briefcase"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="services.html">Software Development</a></li>
+                    <li><a href="services.html">Web Development</a></li>
+                    <li><a href="services.html">Mobile Development</a></li>
+                    <li><a href="services.html">Cloud Solutions</a></li>
+                    <li><a href="services.html">Cybersecurity</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="https://adnan.co.ke" target="_blank" rel="noopener noreferrer">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="documentation.html">Documentation</a></li>
+                    <li><a href="case-studies.html">Case Studies</a></li>
+                    <li><a href="technology-stack.html">Technology Stack</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="support.html">Support</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 NESTYM. All rights reserved. | Engineering Digital Futures</p>
+            <p>Nairobi, Kenya | Building the Future of African Technology</p>
+        </div>
+    </footer>
+    <script src="../js/main.js" defer></script>
+</body>
+</html>

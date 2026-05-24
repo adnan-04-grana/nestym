@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NESTYM - Quick Start Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0e27, #1a1f3a);
+            color: #ffffff;
+            line-height: 1.6;
+            padding: 2rem;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(26, 31, 58, 0.8);
+            padding: 3rem;
+            border-radius: 12px;
+            border: 1px solid rgba(0, 217, 255, 0.1);
+            backdrop-filter: blur(10px);
+        }
+        
+        h1 {
+            color: #00d9ff;
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+        }
+        
+        .subtitle {
+            color: #b0b8cc;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+        
+        h2 {
+            color: #00d9ff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+        
+        h3 {
+            color: #0066ff;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+            font-size: 1.2rem;
+        }
+        
+        p {
+            color: #b0b8cc;
+            margin-bottom: 1rem;
+        }
+        
+        ul, ol {
+            color: #b0b8cc;
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        code {
+            background: rgba(0, 217, 255, 0.1);
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            color: #00d9ff;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin: 2rem 0;
+        }
+        
+        a.btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: linear-gradient(135deg, #00d9ff, #0066ff);
+            color: #0a0e27;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        
+        a.btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0, 217, 255, 0.3);
+        }
+        
+        a.btn-secondary {
+            background: transparent;
+            color: #00d9ff;
+            border: 2px solid #00d9ff;
+        }
+        
+        a.btn-secondary:hover {
+            background: #00d9ff;
+            color: #0a0e27;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .feature-card {
+            background: rgba(0, 217, 255, 0.05);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid rgba(0, 217, 255, 0.2);
+        }
+        
+        .feature-card h4 {
+            color: #00d9ff;
+            margin-bottom: 0.5rem;
+        }
+        
+        .feature-card p {
+            font-size: 0.9rem;
+        }
+        
+        .file-structure {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 3px solid #00d9ff;
+            margin: 1.5rem 0;
+            font-family: 'Courier New', monospace;
+            color: #00d9ff;
+            overflow-x: auto;
+        }
+        
+        .success {
+            background: rgba(0, 217, 255, 0.1);
+            border-left: 3px solid #00d9ff;
+            padding: 1.5rem;
+            border-radius: 4px;
+            margin: 2rem 0;
+        }
+        
+        .success strong {
+            color: #00d9ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>NESTYM - Quick Start Guide</h1>
+        <p class="subtitle">Modern Technology Company Website | HTML & CSS Only</p>
+        
+        <div class="success">
+            <strong>Installation Complete!</strong> Your NESTYM website is ready to use. All files have been created and are fully functional.
+        </div>
+
+        <h2>Project Structure</h2>
+        <div class="file-structure">
+Nestym/
+├── index.html              ← Open this to start
+├── css/
+│   └── style.css          ← Main stylesheet
+├── pages/
+│   ├── services.html      ← Services & offerings
+│   ├── projects.html      ← Portfolio & cases
+│   ├── blog.html          ← Technology blog
+│   ├── about.html         ← About NESTYM
+│   └── contact.html       ← Contact page
+├── README.md              ← Full documentation
+└── START_HERE.html        ← This file
+        </div>
+
+        <h2>Quick Start</h2>
+        <ol>
+            <li>Navigate to the <code>Nestym</code> folder</li>
+            <li>Open <code>index.html</code> in your web browser</li>
+            <li>Explore all pages using the navigation menu</li>
+            <li>All links and forms are fully functional</li>
+        </ol>
+
+        <div class="button-group">
+            <a href="index.html" class="btn">Go to Homepage</a>
+            <a href="pages/services.html" class="btn btn-secondary">View Services</a>
+            <a href="pages/contact.html" class="btn btn-secondary">Contact Page</a>
+        </div>
+
+        <h2>Key Features</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h4>Modern Design</h4>
+                <p>Futuristic, professional, cyber-tech inspired with smooth animations</p>
+            </div>
+            <div class="feature-card">
+                <h4>Fully Responsive</h4>
+                <p>Perfect on desktop, tablet, and mobile devices</p>
+            </div>
+            <div class="feature-card">
+                <h4>Fast & Lightweight</h4>
+                <p>Pure HTML/CSS - no frameworks or dependencies</p>
+            </div>
+            <div class="feature-card">
+                <h4>SEO Optimized</h4>
+                <p>Proper meta tags, semantic HTML, optimized structure</p>
+            </div>
+            <div class="feature-card">
+                <h4>Animated</h4>
+                <p>Smooth transitions, hover effects, particle animations</p>
+            </div>
+            <div class="feature-card">
+                <h4>Easy Customize</h4>
+                <p>Simple to modify colors, content, and styling</p>
+            </div>
+        </div>
+
+        <h2>Pages Included</h2>
+        <h3>1. Homepage (index.html)</h3>
+        <p>Main landing page with hero section, services overview, projects, blog preview, testimonials, and contact CTA.</p>
+
+        <h3>2. Services (pages/services.html)</h3>
+        <p>Detailed information on 9 key services: Software Development, Web Development, Mobile Development, System Development, Cybersecurity, Cloud Solutions, Domain & Hosting, Business Automation, and UI/UX Design.</p>
+
+        <h3>3. Projects (pages/projects.html)</h3>
+        <p>Portfolio showcase with 9 featured projects, case studies with business metrics, and technology stack details.</p>
+
+        <h3>4. Blog (pages/blog.html)</h3>
+        <p>12+ technology articles covering cloud computing, cybersecurity, mobile development, AI, digital transformation, and more.</p>
+
+        <h3>5. About (pages/about.html)</h3>
+        <p>Company information: mission, vision, core values, why choose NESTYM, team culture, achievements, and company journey.</p>
+
+        <h3>6. Contact (pages/contact.html)</h3>
+        <p>Multiple contact methods, contact form, FAQ section, and service inquiry categories.</p>
+
+        <h2>Customization Guide</h2>
+        <h3>Change Company Information</h3>
+        <ol>
+            <li>Open any HTML file in a text editor</li>
+            <li>Find and replace:
+                <ul>
+                    <li><code>NESTYM</code> → Your company name</li>
+                    <li><code>hello@nestym.co.ke</code> → Your email</li>
+                    <li><code>+254 XXX XXX XXX</code> → Your phone</li>
+                    <li><code>Nairobi, Kenya</code> → Your location</li>
+                </ul>
+            </li>
+            <li>Save the files</li>
+        </ol>
+
+        <h3>Modify Colors</h3>
+        <ol>
+            <li>Open <code>css/style.css</code></li>
+            <li>Find the <code>:root {}</code> section at the top</li>
+            <li>Edit these main colors:
+                <ul>
+                    <li><code>--accent-cyan: #00d9ff;</code> ← Neon cyan</li>
+                    <li><code>--accent-blue: #0066ff;</code> ← Electric blue</li>
+                    <li><code>--primary-dark: #0a0e27;</code> ← Main background</li>
+                </ul>
+            </li>
+            <li>Refresh your browser to see changes</li>
+        </ol>
+
+        <h3>Add New Content</h3>
+        <ol>
+            <li>Copy an existing card/section (service-card, project-card, etc.)</li>
+            <li>Paste into the appropriate section</li>
+            <li>Update the text content and emoji icon</li>
+            <li>Styling automatically applies</li>
+        </ol>
+
+        <h2>Mobile & Responsive Design</h2>
+        <p>The website automatically adapts to all screen sizes:</p>
+        <ul>
+            <li><strong>Desktop:</strong> Full layout with side-by-side content</li>
+            <li><strong>Tablet:</strong> Optimized 2-column layouts</li>
+            <li><strong>Mobile:</strong> Single column, touch-friendly interface</li>
+            <li><strong>Small phones:</strong> Simplified navigation and spacing</li>
+        </ul>
+
+        <h2>Deployment Options</h2>
+        <p>You can host this website on:</p>
+        <ul>
+            <li><strong>Netlify:</strong> Drag & drop your files</li>
+            <li><strong>GitHub Pages:</strong> Free hosting with version control</li>
+            <li><strong>Vercel:</strong> Fast deployment with analytics</li>
+            <li><strong>Traditional Hosting:</strong> FTP upload to any web host</li>
+            <li><strong>Local Server:</strong> Run locally with Python: <code>python -m http.server</code></li>
+        </ul>
+
+        <h2>Pro Tips</h2>
+        <ul>
+            <li><strong>Backup:</strong> Keep a copy of original files before modifying</li>
+            <li><strong>Testing:</strong> Test on mobile devices before deployment</li>
+            <li><strong>Optimization:</strong> Add actual images to replace emojis for better impact</li>
+            <li><strong>Forms:</strong> Connect contact form to backend service (Formspree, etc.)</li>
+            <li><strong>Analytics:</strong> Add Google Analytics for tracking</li>
+            <li><strong>SEO:</strong> Update meta descriptions for each page</li>
+        </ul>
+
+        <h2>Additional Resources</h2>
+        <ul>
+            <li>Read <code>README.md</code> for detailed documentation</li>
+            <li>CSS variables are well-documented in <code>css/style.css</code></li>
+            <li>All HTML files have comments explaining structure</li>
+            <li>Responsive breakpoints are clearly marked in CSS</li>
+        </ul>
+
+        <h2>What's Included</h2>
+        <ul>
+            <li>6 fully functional pages</li>
+            <li>Professional design system</li>
+            <li>Smooth animations and transitions</li>
+            <li>Responsive mobile design</li>
+            <li>Contact forms with validation</li>
+            <li>Service listings and portfolio</li>
+            <li>Blog with 12+ articles</li>
+            <li>Testimonials section</li>
+            <li>FAQ section</li>
+            <li>Professional footer</li>
+            <li>No external dependencies</li>
+        </ul>
+
+        <h2>Troubleshooting</h2>
+        <h3>Pages not loading?</h3>
+        <p>Make sure all files are in the correct folders. Check that relative paths are correct.</p>
+
+        <h3>Styling looks wrong?</h3>
+        <p>Verify <code>css/style.css</code> is in the <code>css/</code> folder. Hard refresh your browser (Ctrl+F5).</p>
+
+        <h3>Links not working?</h3>
+        <p>Check that file paths match the folder structure. Use relative paths (e.g., <code>../index.html</code> from pages folder).</p>
+
+        <div class="button-group" style="margin-top: 3rem;">
+            <a href="index.html" class="btn">Launch Website Now</a>
+            <a href="README.md" class="btn btn-secondary">Full Documentation</a>
+        </div>
+
+        <p style="margin-top: 3rem; text-align: center; color: #00d9ff;">
+            <strong>Your NESTYM website is ready!</strong><br>
+            Engineering Digital Futures | Nairobi, Kenya
+        </p>
+    </div>
+</body>
+</html>
