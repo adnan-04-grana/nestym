@@ -285,5 +285,4 @@ This website template is created as a professional portfolio and marketing websi
 
 ---
 
-**Made with ❤️ by NESTYM Team**
 *Engineering Digital Futures | Nairobi, Kenya*
